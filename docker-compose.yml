@@ -9,5 +9,5 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - "MYSQL_ROOT_PASSWORD: dbtest@123"
+      - "MYSQL_ROOT_PASSWORD=dbtest@123"
     
