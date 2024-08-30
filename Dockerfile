@@ -1,6 +1,6 @@
 #This is a dockerfile
 FROM python:3
-
+#Install django
 RUN pip install django==3.2
 
 COPY . .
